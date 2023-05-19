@@ -212,6 +212,10 @@ Hero
     align-items: center;
     max-width: none;
     position: relative;
+
+    width: 100%;
+    max-width:none;
+    margin: 0;
   }
   /* black BG */
   .black-bg {
