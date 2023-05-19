@@ -170,6 +170,10 @@ Hero
     grid-template-columns: 50% 50%;
     align-items: center;
     max-width: none;
+
+    width: 89.6vw;
+    max-width: var(--max-width);
+    margin: 0 auto;
   }
   .hero-img-container {
     overflow: visible;
@@ -258,7 +262,7 @@ Hero
     line-height: 32px;
     margin-bottom: 0;
   }
-  .banner-independent {
+  .banner-combined {
     display: none;
   }
   .banner-left {
@@ -485,6 +489,22 @@ Footer
   display: flex;
   gap: 20px;
 }
+.logo {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  transition: var(--transition);
+}
+
+.logo-fb {
+  mask: url(../images/fb-dark.svg) no-repeat center;
+}
+.logo-insta {
+  mask: url(../images/instagram-dark.svg) no-repeat center;
+}
+.logo-twitter {
+  mask: url(../images/twitter-dark.svg) no-repeat center;
+}
 @media screen and (min-width: 768px) {
   .footer-center {
     display: flex;
@@ -517,5 +537,8 @@ Footer
   }
   .summary-text {
     max-width: 430px;
+  }
+  .logo:hover {
+    background-color: var(--dark-cream);
   }
 }
