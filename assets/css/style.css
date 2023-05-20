@@ -501,6 +501,7 @@ Footer
 }
 
 .logo-fb {
+  -webkit-mask: url(../images/fb-dark.svg) no-repeat center;
   mask: url(../images/fb-dark.svg) no-repeat center;
 }
 .logo-insta {
