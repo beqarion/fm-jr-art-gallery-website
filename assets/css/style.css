@@ -214,7 +214,7 @@ Hero
     position: relative;
 
     width: 100%;
-    max-width:none;
+    max-width: none;
     margin: 0;
   }
   /* black BG */
@@ -505,9 +505,11 @@ Footer
   mask: url(../images/fb-dark.svg) no-repeat center;
 }
 .logo-insta {
+  -webkit-mask: url(../images/instagram-dark.svg) no-repeat center;
   mask: url(../images/instagram-dark.svg) no-repeat center;
 }
 .logo-twitter {
+  -webkit-mask: url(../images/twitter-dark.svg) no-repeat center;
   mask: url(../images/twitter-dark.svg) no-repeat center;
 }
 @media screen and (min-width: 768px) {
